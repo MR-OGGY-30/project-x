@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15pt;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(pencil.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+div {
+  position: fixed;
+  text-align: center;
+  box-shadow: -1px 1px 25px white;
+  border-radius: 10px;
+  width: 80%;
+  backdrop-filter: blur(3px);
+}
+
+form {
+  width: 100%;
+  margin: auto;
+
+}
+
+h1 {
+  font-size: 30pt;
+  margin: 20px;
+  color: white;
+  text-shadow: 2px 2px 0 navy, 3px 3px 25px deepskyblue;
+}
+
+h1:hover {
+  cursor: default;
+}
+
+input {
+  font-size: 100%;
+  width: 90%;
+  overflow: scroll;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0.71);
+}
+
+input:focus {
+  outline-color: #555;
+}
+
+#log-in {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 15px;
+  padding: 10px 30px;
+  background-color: rgba(0, 114, 248, 0.71);
+  border-radius: 10px;
+}
+
+#log-in:hover {
+  background-color: rgba(7, 0, 248, 0.71);
+  cursor: pointer;
+}
+
+#log-in:active {
+  background-color: seagreen;
+}
+
+#f-password {
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.71);
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+#f-password:hover {
+  color: red;
+  text-decoration: underline;
+  border: 2px solid red;
+}
+
+#f-password:active {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid lawngreen;
+}
+
+#p-sign-up {
+  display: block;
+  color: red;
+  padding: 10px 10px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.71);
+  border-radius: 10px;
+}
+
+#p-sign-up:hover {
+  cursor: default;
+}
+
+#sign-up {
+  text-decoration: none;
+  color: white;
+  font-size: 20pt;
+  display: block;
+  padding: 10px 30px;
+  margin: 15px;
+  background-color: rgba(0, 114, 248, 0.71);
+  border-radius: 10px;
+}
+
+#sign-up:hover {
+  cursor: pointer;
+  background-color: rgba(7, 0, 248, 0.71);
+}
+
+#sign-up:active {
+  background-color: seagreen;
+}
