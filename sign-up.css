@@ -12,8 +12,7 @@ body {
   background-image: url(pencil.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+  background-size: 100% 100%;
   height: 100vh;
   width: 100vw;
 }
